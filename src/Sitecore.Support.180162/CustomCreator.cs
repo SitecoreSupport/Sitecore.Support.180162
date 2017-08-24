@@ -6,7 +6,7 @@ using Sitecore.Events.Hooks;
 
 namespace Sitecore.Support
 {
-    public class CustomCreator
+    public class CustomCreator : IHook
     {
         public void Initialize()
         {
